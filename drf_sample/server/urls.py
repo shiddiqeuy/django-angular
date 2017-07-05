@@ -23,5 +23,5 @@ router.register(prefix='chains', viewset=ChainViewSet)
 router.register(prefix='stores', viewset=StoreViewSet)
 router.register(prefix='employees', viewset=EmployeeViewSet)
 
-urlpatterns = routers.urls
+urlpatterns = router.urls
 
